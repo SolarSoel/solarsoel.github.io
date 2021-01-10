@@ -1,0 +1,39 @@
+body {
+    width: 75%;
+    margin: 0 auto;
+    color: purple;
+    background-color: aquamarine;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    width: 75%;
+    color: aquamarine;
+    background-color: purple;
+    padding: 0.5em 0.5em;
+}
+
+footer {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 75%;
+    color: aquamarine;
+    background-color: purple;
+    padding: 0.25em 0.5em;
+}
+
+img {
+    display: block;
+    position: absolute;
+    top: 1.5em; right: 30em; 
+    width: 10%;
+}
+
+a {
+    color: teal;
+}
+
+a:hover {
+    color: rgb(22, 4, 34);
+}
