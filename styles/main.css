@@ -31,9 +31,13 @@ img {
 }
 
 a {
-    color: teal;
+    color: rgb(6, 95, 66);
 }
 
 a:hover {
     color: rgb(6, 2, 24);
+}
+
+footer a {
+    color: aqua;
 }
