@@ -6,6 +6,7 @@ body {
 }
 
 header {
+    border-radius: 10px;
     font-family: 'Dancing Script', cursive;
     text-align: center;
     width: 75%;
@@ -15,6 +16,7 @@ header {
 }
 
 footer {
+    border-radius: 10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     width: 75%;
@@ -24,10 +26,12 @@ footer {
 }
 
 img {
+    border-radius: 10px;
     display: block;
     position: absolute;
     top: 1.5em; right: 30em; 
     width: 10%;
+    box-shadow: 5px 5px 5px rgb(61, 8, 26);
 }
 
 a {
