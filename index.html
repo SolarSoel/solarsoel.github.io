@@ -4,11 +4,15 @@
 <head>
   <meta charset= "utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Home page for Savannah Soelberg's WDD230 class assignments at Brigham Young University- Idaho.
+A practice in Web Frontend Development.">
+
   <title>Savannah Soelberg - WDD230 | Home</title>
   <link rel="stylesheet" href="styles/main.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-    </style>
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">;
+    
 </head>
 
 <body>
@@ -27,9 +31,11 @@
  </p>
 
  <footer>
-  <p>&copy; <script src="scripts/currentDate.js"></script> | Savannah Soelberg | Idaho |
+  <p>&copy; <span id="date"></span> | Savannah Soelberg | Idaho |
      <a href="https://www.byui.edu/online">BYUI Online Learning</a></p>
-  <p>Last updated: <script src="scripts/modi.js"></script><p>
+  <p>Last updated: <span id="modi"></span><p>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/modi.js"></script>
 </footer>
 </body>
 
