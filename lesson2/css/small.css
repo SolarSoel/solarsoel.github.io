@@ -1,0 +1,70 @@
+* {-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: rgb(202, 247, 247);
+    color: rgb(55, 12, 80);
+}
+
+header, footer p, h3 {
+    font-family: 'Amatic SC', cursive;
+    padding: 1rem 2%;
+    text-align: center;
+}
+
+header {
+    background-color:  rgb(55, 12, 80);
+    color: rgb(202, 247, 247);
+    border-radius: 10px;
+}
+
+main {
+    padding: 1rem 2%;
+    display: block;
+    margin: auto;
+
+}
+
+main div {
+    width: 100%;
+    margin: 2%;
+}
+
+div {
+    border-style:solid;
+    border-radius: 10px;
+    border-color: rgb(55, 12, 80);
+    background-color: rgb(165, 202, 202);
+    display: block;
+}
+
+div p {
+    padding: 0 1rem 2%;
+}
+
+h3 {
+    background-color: rgb(89, 28, 124);
+    color: rgb(202, 247, 247);
+    padding: 0.5rem;
+    margin: 0;
+}
+
+
+main figure img {
+    width: 100%;
+}
+
+main figure {
+    width: 100%;
+    margin: 0;
+}
+
+footer {
+    color: rgb(202, 247, 247);
+    background-color: rgb(55, 12, 80);
+    border-radius: 10px;
+}
