@@ -1,17 +1,7 @@
 @media only screen and (min-width: 560px){
 
-
-    main {
-        clear: both;
-        column-count: 2;
+    div.main {
+        grid-template-columns: 1fr 1fr;
     }
 
-    main div {
-        width: auto;
-        margin-left: 2%;
-    }
-
-    main figure {
-        width: auto;
-    }
 }

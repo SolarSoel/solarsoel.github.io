@@ -6,12 +6,8 @@
     }
 
 
-main {
-    column-count: 3;
-}
-
-main div {
-    width: auto;
-    margin: 0;
+div.main {
+    max-width:75rem;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 }

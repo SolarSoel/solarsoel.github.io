@@ -22,25 +22,23 @@ header {
     border-radius: 10px;
 }
 
-main {
+div.main {
     padding: 1rem 2%;
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr;
     margin: auto;
 
 }
 
-main div {
-    width: 100%;
+div.main div {
+    width: 98%;
     margin: 2%;
-}
-
-div {
     border-style:solid;
     border-radius: 10px;
     border-color: rgb(55, 12, 80);
     background-color: rgb(165, 202, 202);
-    display: block;
 }
+
 
 div p {
     padding: 0 1rem 2%;
@@ -54,11 +52,11 @@ h3 {
 }
 
 
-main figure img {
+div.main figure img {
     width: 100%;
 }
 
-main figure {
+div.main figure {
     width: 100%;
     margin: 0;
 }
