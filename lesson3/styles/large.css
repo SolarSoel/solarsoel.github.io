@@ -20,6 +20,15 @@
 
 /*----------- MAIN --------------*/
 
+main div.personas div {
+    padding: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+main div.personas div img {
+    margin: 0 1rem;
+}
 
 
 /*----------- FOOTER --------------*/

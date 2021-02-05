@@ -64,14 +64,20 @@ h1 {
 
 div.mist img {width: 50%}
 
-
-main div div {
-    float: left;
-    padding: 1rem;
+main div.personas {
+    padding:1rem;
+    grid-template-columns: 1fr;
 }
-main div div img {
+
+main div.personas div {
+    padding:1rem;
+    margin:1rem;
+}
+main div.personas div img {
     width: 50%;
     border:rgb(141, 8, 1) solid;
+    float: left;
+    margin: 0 0.5rem;
 }
 
 ol li {
