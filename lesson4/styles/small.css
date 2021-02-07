@@ -1,0 +1,108 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+/*----------- BODY --------------*/
+body {
+    font-family: 'Barlow', sans-serif;
+}
+h1, h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
+/*----------- HEADER --------------*/
+header {
+    padding: .5rem 2%;
+    background-color: rgb(232,233,235);
+    color: rgb(25,24,10);
+    display: flex;
+    align-content: left;
+    justify-content: left;
+}
+
+.headings {
+    display: flex;
+    flex-direction: left;
+    justify-content: left;
+}
+header img {width: 50px;}
+header h1 {margin: auto 0 0; font-size: 1.3rem;}
+header h2{margin: 0; font-weight: normal; font-size: 1rem;}
+
+/*----------- NAVIGATION --------------*/
+nav {
+    background-color: rgb(141, 8, 1);
+}
+
+.navigation {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li{
+    display:none;
+}
+nav ul li a {
+    display: block;
+    color:rgb(238, 234, 190);
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+}
+
+
+nav ul li a:hover {
+    background-color: rgb(191, 6, 3);
+    color: rgb(233, 220, 220);
+}
+nav ul li.active a {
+    background-color: rgb(207, 187, 44);
+    color:  rgb(141, 8, 1);
+}
+
+.responsive li {
+    display: block;
+}
+/*----------- MAIN --------------*/
+main {
+    padding: 0 2%;
+    min-height: 10rem;
+    color: rgb(25,24,10);
+}
+
+h1 {
+    color:  rgb(141, 8, 1);
+}
+
+div.content {
+    display: block;
+    border:rgb(141, 8, 1) dotted;
+    background-color: rgb(232,233,235);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: rgb(141, 8, 1);
+    color:rgb(238, 234, 190);
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

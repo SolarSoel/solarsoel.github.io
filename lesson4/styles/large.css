@@ -1,0 +1,34 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    main{
+        max-width: 64rem;
+        margin:auto;
+    }
+
+    footer {
+        max-width: 68rem;
+        margin: auto;
+    }
+
+/*----------- BODY --------------*/
+
+
+
+/*----------- HEADER --------------*/
+
+
+
+/*----------- NAVIGATION --------------*/
+
+
+
+/*----------- MAIN --------------*/
+
+div.content {
+    background-color: rgb(232,233,235);
+}
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
