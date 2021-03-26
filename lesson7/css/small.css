@@ -1,0 +1,52 @@
+* {-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box ;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 16px;
+    background-color: rgb(202, 247, 247);
+    color: rgb(55, 12, 80);
+}
+
+header, footer p, h3 {
+    font-family: 'Amatic SC', cursive;
+    padding: 1rem 2%;
+    text-align: center;
+}
+
+header {
+    background-color:  rgb(55, 12, 80);
+    color: rgb(202, 247, 247);
+    border-radius: 10px;
+}
+
+main {
+    padding: 1rem 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+main picture {
+    align-content: center;
+    margin: auto;
+    min-width: 300px;
+    min-height: 400px;
+}
+
+main picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+main picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+footer {
+    color: rgb(202, 247, 247);
+    background-color: rgb(55, 12, 80);
+    border-radius: 10px;
+}

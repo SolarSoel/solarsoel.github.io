@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Lazy Loading, Week 7">
+    <meta name="author" content="Savannah Soelberg">
+
+    <title>Savannah Soelberg - Lazy Load</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1>Lazy Loading of Images</h1>
+    </header>
+    <main>
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/Nova300.jpg" alt="drawing by Solar of Nova">
+        </picture>
+
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/laz2.jpg" alt="old drawing by Solar of Lydian">
+        </picture>
+
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/laz3.jpg" alt="drawing by Solar of Daer iceskating">
+        </picture>
+
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/laz4.jpg" alt="drawing by Solar of Montu as a model for laughs">
+        </picture>
+
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/laz5.jpg" alt="drawing by Solar of Soren as a model for laughs">
+        </picture>
+
+        <picture>
+            <img src="images/laz7.jpg" data-src="images/laz6.jpg" alt="drawing by Solar of Aari diving underwater">
+        </picture>
+    </main>
+    <footer>
+       <p> &copy; <span id="date"></span> Savannah Soelberg</p>
+    <script src="scripts/currentDate.js"></script>
+    <script src="scripts/load.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script> <!--Web Font Loader-->
+    <script>
+    WebFont.load({
+      google: {
+        families: [
+           'Barlow', 'Amatic SC'
+        ]
+      }
+    });</script>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+/* 35em is also 560px (if basefont is 16px) */
+@media only screen and (min-width: 35rem) {
+
+
+/*----------- BODY --------------*/
+
+main{
+    max-width: 58rem;
+    margin:auto;
+}
+
+div.content {
+    display: block;
+    border:rgb(141, 8, 1) dotted;
+    background-color: rgb(232,233,235);
+    margin: 10px auto;
+    padding: 10px;
+}
+div.content section.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+section.forecast div {
+    text-align: center;
+    border:rgb(141, 8, 1) solid 1px;
+}
+
+section.forecast div h5 {
+    background-color:  rgb(207, 187, 44);
+    margin: 0;
+    padding: 1rem 0rem;
+}
+
+section.forecast img {
+    padding: 1rem 0rem 0;
+}
+
+footer {
+    margin: auto;
+}
+
+
+/*----------- HEADER --------------*/
+
+header img{width: 80px;}
+header h1{font-size: 2rem;}
+header h2{font-size: 1.5rem;}
+
+
+/*----------- NAVIGATION --------------*/
+    nav ul {margin-left: 2%;}
+    nav ul li {float: left;}
+
+    nav ul li a{padding: .5rem 1rem;}
+
+    .navigation li:first-child {
+        display:none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%
+    }
+    
+
+
+/*----------- MAIN --------------*/
+div.article {
+    display: block;
+}
+
+div.article section.articlePhoto {
+    float: right;
+    width:25%; 
+}
+
+div.double {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.double img {
+    width: 75%
+}
+
+div.hero section {
+    width: 42%;
+    background-color: rgba(232,233,235, 0.705);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 1rem;
+    margin: 0 4%;
+}
+
+/*----------- FOOTER --------------*/
+    
+} /* end of media query */
