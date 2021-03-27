@@ -36,9 +36,7 @@ section.forecast img {
     padding: 1rem 0rem 0;
 }
 
-footer {
-    margin: auto;
-}
+
 
 
 /*----------- HEADER --------------*/
@@ -93,6 +91,15 @@ div.hero section {
     margin: 0 4%;
 }
 
+main section.gallery {
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
 /*----------- FOOTER --------------*/
     
+footer {
+    margin: auto;
+}
 } /* end of media query */

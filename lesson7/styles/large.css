@@ -37,6 +37,27 @@ div.double img {
     width: 50%
 }
 
+main section.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main section.gallery figure picture img {
+    opacity: 75%;
+    filter: blur(2px);
+}
+
+main section.gallery figure:hover {
+    box-shadow: 1px 1px 5px 10px rgb(141, 8, 1);
+    border: solid 3px rgb(207, 187, 44);
+    transition: 0.5s;
+}
+
+main section.gallery figure:hover img {
+    opacity: 100%;
+    filter: blur(0px);
+    transition: 0.5s;
+}
+
 /*----------- FOOTER --------------*/
     
 } /* end of media query */

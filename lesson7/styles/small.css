@@ -158,6 +158,39 @@ div.hideme {
     display: none;
 }
 
+main section.gallery {
+    padding: 1.5em;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section.gallery figure {
+    background-color: rgb(232,233,235);
+    color:rgb(141, 8, 1);
+    border: dotted 2px rgb(141, 8, 1);
+}
+
+main section.gallery figure picture {
+    display: block;
+}
+
+
+main section.gallery figure picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+main section.gallery figure picture img {
+    width: 100%;
+    height: auto;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+main section.gallery figure figcaption {
+    text-align: center;
+    padding: 1em;
+}
+
 /*----------- FOOTER --------------*/
 footer {
     background-color: rgb(141, 8, 1);
